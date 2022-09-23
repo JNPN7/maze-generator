@@ -1,16 +1,19 @@
 # Maze Generator
-Use of spanning tree for path creation
+Use of spanning tree for path creation. The algorithm is doesnot produce true spanning tree it may consists loop.
 
-## Problem
-Not working due to random creation of edge in disjoint connection
+## Usage
+```
+$ python main.py
+```
+Mention width and height from agruments:
+```
+$ python main.py --width=30 --height=40
+```
+Default width = 20 and height = 20
 
-## Idea to be implement
-Take random node not visited.
-Check if that random (disjoint) node has neighbour already visited or not
-If visited then connect else take another random node until found
+## Outcome
+Default maze 20 by 20:
+![alt default image](./doc/img/default_maze.png)
 
-### Not a true spanning tree may contain loop
-
-
-### Note
-Make sure there is no disjoint network of nodes
+Maze 50 by 45     
+![alt default image](./doc/img/50-45.png)
