@@ -15,5 +15,5 @@ Default width = 20 and height = 20
 Default maze 20 by 20:
 ![alt default image](./doc/img/default_maze.png)
 
-Maze 50 by 45     
-![alt default image](./doc/img/50-45.png)
+Maze 40 by 35     
+![alt default image](./doc/img/40-35.png)
