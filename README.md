@@ -1,5 +1,5 @@
 # Maze Generator
-Use of spanning tree for path creation. The algorithm is doesnot produce true spanning tree it may consists loop.
+Use of spanning tree for path creation. The algorithm is does not produce true spanning tree it may consists loop.
 
 ## Usage
 ```
@@ -15,5 +15,5 @@ Default width = 20 and height = 20
 Default maze 20 by 20:
 ![alt default image](./doc/img/default_maze.png)
 
-Maze 40 by 35     
+Maze 40 by 35:
 ![alt default image](./doc/img/40-35.png)
